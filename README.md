@@ -87,6 +87,7 @@
 - **重點**：使用 Finite State Machine (FSM) 配合 Counter 實作。
 - **模擬結果
   
+  ![Traffic Light Waveform](<Screenshot 2026-04-01 001207.png>)
 
 ### 2. 隨機數產生器 (Random Number Generator)
 
@@ -94,11 +95,10 @@
 - **重點**：當 `load` 訊號為 1 時觸發輸出，展示了 10 次連續隨機數的模擬結果。
 - **模擬結果
   
-
+  ![Random Gen Waveform](<Screenshot 2026-04-01 001425.png>)
 ### 3. PWM 脈波寬度調變 (PWM Generator)
 - **邏輯**：輸入 1~9 代表 10%~90% 的 Duty Cycle。
 - **重點**：展示了三種不同佔空比的波形模擬，驗證輸出寬度隨輸入準確變化。
 - **模擬結果
   
-
-
+  ![PWM Waveform](<Screenshot 2026-04-01 001705.png>)
