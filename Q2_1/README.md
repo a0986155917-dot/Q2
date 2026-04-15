@@ -7,5 +7,4 @@
   根據目前的狀態，決定輸出的 light 訊號是哪一個顏色。
 - **模擬結果
   
-  ![Traffic Light Waveform](<Screenshot tl.png
->)
+  ![Traffic Light Waveform](<Screenshot tl.png>)
