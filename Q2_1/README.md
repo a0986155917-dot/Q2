@@ -1,7 +1,9 @@
 ### 1. 交通燈狀態機 (Traffic Light FSM)
 
 - **邏輯**：綠燈 (8s) -> 黃燈 (2s) -> 紅燈 (10s) 循環切換。
-- **重點**：使用 Finite State Machine (FSM) 配合 Counter 實作。
+- **作法**：使用暫存器記住現在是紅、黃還是綠燈。
+  利用一個計數器來當作計時器。當計數器達到設定值（如綠燈 8 秒）時，發出一個訊號給狀態機換燈
+  根據目前的狀態，決定輸出的 light 訊號是哪一個顏色。
 - **模擬結果
   
   ![Traffic Light Waveform](<Screenshot 2026-04-01 001207 change.png>)
