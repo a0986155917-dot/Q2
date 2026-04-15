@@ -4,4 +4,4 @@
 - **重點**：使用 Finite State Machine (FSM) 配合 Counter 實作。
 - **模擬結果
   
-  ![Traffic Light Waveform](<Screenshot 2026-04-01 001207.png>)
+  ![Traffic Light Waveform](<Screenshot 2026-04-01 001207 change.png>)
